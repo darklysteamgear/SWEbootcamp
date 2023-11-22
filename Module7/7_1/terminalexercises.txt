@@ -1,0 +1,24 @@
+PART ONE
+echo @on
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cd ..
+cp first second
+rm -rf second
+
+PART TWO
+1. Man shows a manual for the listed command. one way to break out of this press q.
+2. the -l flag for ls shows a directory in long listed format, and the -a command shows all items in the directory.
+3. control+ left or right arrow
+4.control+e
+5.control+a
+6.control+w
+7.the terminal is the text input/output enviroment, whereas the shell is the actual command line interpreter.
+8.absolute path is the path directory you are currently in. the path displayed next to your username in the terminal.
+9.the relative path is a path that is deifined to manipulate from the terminal but is not where you are currently executing the command.
+10. a flag is an argument you give to a command to modify it's operation. an example would be arp -a, where -a is the flag that will cause arp to list all local ip addresses currently connected to a network. another example with be rm -rf where -rf is the  flag that will cause rm to remove an entire folder (r flag) forcefully (f flag). another example could be ls -l where the l flag will cause ls to list all files in a directory verbosely.
+11. Answered in question 10.
